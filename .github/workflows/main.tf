@@ -1,4 +1,4 @@
-resource "local_file" "foo" {
-    content  = "foo!"
-    filename = "${path.module}/foo.bar"
+resource "local_file" "hello" {
+    content  = var.hello
+    filename = "${path.module}/hello.py"
 }
